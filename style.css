@@ -1,0 +1,88 @@
+*{
+	margin: 0;
+	padding: 0;
+	color: white;
+}
+
+.container{
+	height: 100vh;
+	width: 100vw;
+	background: #1b1c1c;
+}
+
+nav{
+	display: flex;
+	width: 100vw;
+}
+
+.logo{
+	width: 30vw;
+}
+
+ul{
+	width: 70vw;
+	display: flex;
+}
+
+li{
+	list-style: none;
+	font-size: 1rem;
+	padding: 1.5rem 3rem 0rem 4rem;
+	font-family: sans-serif;
+	color: #1b90e3;
+}
+
+.logo h1{
+	padding: 1.2rem 0rem 0rem 2rem;
+	font-family: sans-serif;
+}
+
+main{
+	display: flex;
+	position: absolute;
+	top: 3rem;
+	left: 8rem;
+}
+
+.content{
+	margin: 12rem 0rem 0rem 8rem;
+}
+
+.content h1,p{
+	font-family: sans-serif;
+	margin-top: 0.8rem;
+}
+
+.icons{
+	margin-top: 20em;
+	margin-left: 12rem;
+
+}
+.content p{
+	font-size: 1.2rem;
+}
+
+.icons a{
+	text-decoration: none;
+	font-size: 1.5rem;
+	display: block;
+	padding: 1rem 0rem 0rem 11rem;
+	color: pink;
+}
+
+.content span::after{
+	content: " ";
+	position: absolute;
+	height: 2rem;
+	width: 5rem;
+	border-left: 2px solid #54092b;
+	background:  #1b1c1c;
+	animation: textani 2s 1s  infinite ease-in;
+}
+
+@keyframes textani{
+	0%{
+		left: 11.5rem;
+	}
+}
+
